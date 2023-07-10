@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	background: #f5fffa;
+}
+header{
+	height:160px;
+	background:#282928;
+	display:flex;
+	flex-direction: column;
+  	justify-content: center;
+	color:white;
+}
+header img{
+	position: absolute;
+    width: 300px;
+    top: 35px;
+}
+header h1{
+	text-align: center;
+	font-family: 'Ysabeau SC', sans-serif;
+}
+.contain{
+	display:flex;
+	flex-wrap: wrap;
+	margin:30px;
+	margin-top:60px;
+}
+.anime-contain{
+	width:28%;
+	margin:2%;
+	text-align: center;
+}
+.anime-contain img{
+	display:block;
+	width:100%;
+}
+.anime-contain h2{
+	margin:2px;
+	font-family: 'Yuji Syuku', serif;
+}
+.anime-contain p{
+	margin:1px;
+	font-family: 'Shippori Mincho B1', serif;
+	font-family: 'M PLUS 2', sans-serif;
+}
